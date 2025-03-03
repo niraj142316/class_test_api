@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const Result = require("../models/Result");
-const ResultDsa = require("../models/ResultDsa");
+const Result = require("./models/Result");
+const ResultDsa = require("./models/ResultDsa");
 
 // GET result by regNumber with filters
 router.get("/:regNumber", async (req, res) => {
